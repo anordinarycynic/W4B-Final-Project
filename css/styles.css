@@ -1,0 +1,102 @@
+body {
+    background-color: #2d34b3;
+    margin: 0;
+}
+h1 {
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Fascinate', cursive;
+    font-size: 50px;
+    color: #ffde59;
+    text-shadow: 2px 2px #978335;
+}
+.logo {
+    position: absolute;
+    margin: 0 32px;
+    height: 120px;
+    width: auto;
+    float: left;
+    z-index: 9;
+}
+nav {
+    clear: both;
+    background-color: #19191d;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-shadow: 2px 2px #ffde5980;
+}
+.navbar {
+    display: inline-block;
+    margin: 10px 32px;
+}
+nav a {
+    font-size: 32px;
+}
+a:link {
+    color: #ffde59;
+    text-decoration: none;
+}
+a:visited {
+    color: #ffde59;
+    text-decoration: none;
+}
+a:hover {
+    color: #ffde59;
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+}
+.hero {
+    background-color: #44ABA3;
+}
+.hero img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+figcaption {
+    font-family: 'Open Sans', sans-serif;
+    text-align: right;
+    padding: 10px 10px;
+}
+main {
+    background-color: #44ABA3;
+    padding: 10px 20px;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+}
+.vid {
+    margin: 32px 0px;
+}
+.map {
+    margin: 20px 20px;
+}
+.form {
+    background-color: #44ABA3;
+}
+.fa {
+    padding: 20px;
+    font-size: 10px;
+    width: 30px;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+footer {
+    clear: both;
+    background-color: #19191d;
+    padding: 0 10px;
+    text-align: right;
+    color: #ffde59;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 1px 1px #ffde5980;
+}
